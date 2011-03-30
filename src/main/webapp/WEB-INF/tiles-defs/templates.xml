@@ -13,7 +13,7 @@
 		<put-attribute name="menu" value="/WEB-INF/templates/menu.jsp" />
 		<put-attribute name="body" value="/WEB-INF/templates/blank.jsp" />
 	</definition>
- 
+
 	<definition name="index" extends=".mainTemplate">
 		<put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
 	</definition>
@@ -21,5 +21,5 @@
 	<definition name="info/about" extends=".mainTemplate">
 		<put-attribute name="body" value="/WEB-INF/jsp/info/about.jsp" />
 	</definition>
-	
+
 </tiles-definitions>
